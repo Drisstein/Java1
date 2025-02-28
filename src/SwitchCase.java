@@ -1,12 +1,10 @@
 import java.util.Scanner;
 
 public class SwitchCase {
-
     public static void jourSemaine(String[] args) {
-
         Scanner lire = new Scanner(System.in);
         while (true) {
-            System.out.println("Veuillez saisir le jour : ");
+            System.out.print("Veuillez saisir le jour : ");
             int x = lire.nextInt();
             switch (x) {
                 case 1:
@@ -25,7 +23,7 @@ public class SwitchCase {
                     System.out.println("Nous sommes Vendredi!");
                     break;
                 case 6:
-                    System.out.println("Samedi!");
+                    System.out.println("Nous sommes Samedi!");
                     break;
                 case 7:
                     System.out.println("Nous sommes Dimanche !");
