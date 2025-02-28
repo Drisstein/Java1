@@ -5,9 +5,9 @@ public class App {
          * classeTrieDecroissant
          * tD.saisiDecroissant(); //Methode d instance
          */
-
-        TrieDecroissant.saisiDecroissant(); // Methode de classe
         // EXERCICE CHERCHERMAX par une instance de classe
         ChercherMax.maxMin();
+        TrieDecroissant.saisiDecroissant(); // Methode de classe
+
     }
 }
