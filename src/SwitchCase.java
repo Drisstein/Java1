@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 public class SwitchCase {
+    /**
+     * @param args
+     */
     public static void jourSemaine(String[] args) {
         Scanner lire = new Scanner(System.in);
         while (true) {
@@ -32,6 +35,7 @@ public class SwitchCase {
                 default:
                     System.out.println("Veuillez saisir un nombre entre 1 et 7");
             }
+
             // Programme 2 : Calculatrice
             System.out.println("Veuillez saisir deux nombres : ");
             int a = lire.nextInt();
