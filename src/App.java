@@ -18,6 +18,7 @@ public class App {
 
         // 4
         // Exercice 4 PariteNombre
-        PariteNombre.paritePositif(args);
+        // PariteNombre.paritePositif(args);
+        Factorielle.fact();
     }
 }
