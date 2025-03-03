@@ -5,11 +5,20 @@ public class App {
         // * classeTrieDecroissant
         // * tD.saisiDecroissant(); //Methode d instance
         // */
+        // 1
         // // EXERCICE CHERCHERMAX par une instance de classe
         // ChercherMax.maxMin();
-        // TrieDecroissant.saisiDecroissant(); // Methode de classe
-        // Exercice 3 les jours de la semaine
-        SwitchCase.jourSemaine(args);
 
+        // 2
+        // TrieDecroissant.saisiDecroissant(); // Methode de classe
+
+        // 3
+        // Exercice 3 les jours de la semaine
+        // SwitchCase.jourSemaine(args);
+
+        // 4
+        // Exercice 4 PariteNombre
+        // PariteNombre.paritePositif(args);
+        Factorielle.fact();
     }
 }
