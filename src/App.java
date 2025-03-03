@@ -1,6 +1,7 @@
 public class App {
     public static void main(String[] args) {
         // /*
+        /* L'ENSEMBLE DE CES EXERCICES SONT ITERES PAR WHILE (...) */
         // * TrieDecroissant tD = new TrieDecroissant(); // Instanciation de
         // * classeTrieDecroissant
         // * tD.saisiDecroissant(); //Methode d instance
@@ -18,6 +19,18 @@ public class App {
 
         // 4
         // Exercice 4 PariteNombre
-        PariteNombre.paritePositif(args);
+        // PariteNombre.paritePositif(args);
+
+        // 8 TD1 2024
+        // Exo 8 : Factorielle.fact();
+
+        // 9
+        // Exo 9 : Table de Multiplication
+        // TableMultip.table(args);
+
+        // 10
+        // Point.main();
+
+        Point Pt = new Point();
     }
 }
