@@ -19,6 +19,13 @@ public class App {
         // 4
         // Exercice 4 PariteNombre
         // PariteNombre.paritePositif(args);
-        Factorielle.fact();
+
+        // 8 TD1 2024
+        // Exo 8 : Factorielle.fact();
+
+        // 9
+        // Exo 9 : Table de Multiplication
+        TableMultip.table(args);
+
     }
 }
