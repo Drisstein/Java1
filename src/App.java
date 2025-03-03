@@ -1,6 +1,7 @@
 public class App {
     public static void main(String[] args) {
         // /*
+        /* L'ENSEMBLE DE CES EXERCICES SONT ITERES PAR WHILE (...) */
         // * TrieDecroissant tD = new TrieDecroissant(); // Instanciation de
         // * classeTrieDecroissant
         // * tD.saisiDecroissant(); //Methode d instance
