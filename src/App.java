@@ -26,7 +26,11 @@ public class App {
 
         // 9
         // Exo 9 : Table de Multiplication
-        TableMultip.table(args);
+        // TableMultip.table(args);
 
+        // 10
+        // Point.main();
+
+        Point Pt = new Point();
     }
 }
