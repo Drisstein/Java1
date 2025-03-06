@@ -31,6 +31,9 @@ public class App {
         // 10
         // Point.main();
 
-        Point Pt = new Point();
+        // new Point();
+
+        // 11 : Correction by GPT
+        CorrTabMinmax.main(args);
     }
 }
