@@ -9,7 +9,7 @@ public class App {
         // * tD.saisiDecroissant(); //Methode d instance
         // */
         // 1
-        // // EXERCICE CHERCHERMAX par une instance de classe
+        // // EXERCICE CHERCHERMAX par une iénstance de classe
         // ChercherMax.maxMin();
 
         // 2
