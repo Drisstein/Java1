@@ -19,36 +19,55 @@ import java.util.Scanner;
 
 public class Point {
 
-    // Methodes d'accés
-    public static void methodAcces() {
+    private int x;
+    private int y;
+
+    public Point(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public Point() {
 
     }
 
-    // Methode de modification
-    public static void methodModif() {
+    // Les méthodes d'accès et de modification des coordonnées
+    public int getX() {
+        return x;
+    }
 
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
     }
 
     // Méthode deplacer qui effectue une translation définie par les arguments
-    public static void deplacer() {
+    public void deplacer() {
 
     }
 
     // une méthode afficher qui affiche les coordonnées d'un point
-    public static void afficher() {
+    public void afficher() {
 
     }
 
     // une méthode toString qui transforme un point en une chaîne de caractères
     // (x,y):
-    public static String tostring(int x, int y) {
+    public String tostring(int x, int y) {
         return null;
 
     }
 
     // une méthode appelée « distance ». Cela prend un seul paramètre(Point) et
     // renvoie la distance entre les 2 points.
-    public static int distance(int point) {
+    public int distance(int point) {
 
         return distance(point);
     }
@@ -60,9 +79,11 @@ public class Point {
     }
 
     //
-    public static void main(String[] args) {
-        Scanner lire = new Scanner(System.in);
-        System.out.println("- - REPERAGE DU PLAN - -");
-        // Un constructeur : le constructeur est dans le App.java
-    }
+    // public static void main(String[] args) {
+    // Scanner lire = new Scanner(System.in);
+    // System.out.println("- - REPERAGE DU PLAN - -");
+    // // Un constructeur : le constructeur est dans le App.java
+    // Point p1 = new Point();
+    // p1.setX(3);
+    // }
 }

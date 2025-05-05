@@ -7,10 +7,21 @@ le tableau (les valeurs fournies au clavier), de calculer et d’afficher la moy
 */
 import java.util.Scanner;
 
-public class TabMinmax {
+public int TabMinmax(int[]){
+
+public class SaisiTableau {
+    for(
+    int i = 0;i<=arr.length;i++)
+    {
+        System.out.print("Entrez un entier : ");
+        arr[i] = lire.nextInt();
+    }
+
+    }
+
     public static void main(String[] args) {
         Scanner lire = new Scanner(System.in);
         System.out.println("- - TABLEAU OPE. DE BASE - -");
-
+        
     }
 }

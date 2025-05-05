@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) {
         // /*
@@ -30,10 +32,26 @@ public class App {
 
         // 10
         // Point.main();
+        // Point p1 = new Point(3, 4);
+        // Point p2 = new Point(0, 0);
+
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Entrez les coordonnées du point p2 : ");
+        // int a = sc.nextInt();
+        // int b = sc.nextInt();
+
+        // p2.setX(a);
+        // p2.setY(b);
+
+        // // p2 = new Point(a, b);
+        // System.out.println("Coordonnées initiales de p2 : " + p2.getX() + ", " +
+        // p2.getY());
 
         // new Point();
 
         // 11 : Correction by GPT
-        CorrTabMinmax.main(args);
+        // CorrTabMinmax.main(args);
+        SaisiTableauCorrection.main(args);
+
     }
 }
