@@ -1,7 +1,7 @@
-CRUD---------------------
-Classe : entreprise --> afficherEmployer ; 
-Class : employé  ; 
-Ajouter  ; 
-Sans emplyer 
-Modifier informations employé
-Avec authentification 
+CRUD-----------------------------------------
+Classe : entreprise --> afficherEmployer ;  |
+Class : employé  ;                          |
+Ajouter  ;                                  |
+Sans emplyer                                |
+Modifier informations employé               |
+Avec authentification                       |

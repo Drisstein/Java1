@@ -7,21 +7,27 @@ le tableau (les valeurs fournies au clavier), de calculer et d’afficher la moy
 */
 import java.util.Scanner;
 
-public int TabMinmax(int[]){
+public int TabMinmax(int[]args){
 
 public class SaisiTableau {
     for(
     int i = 0;i<=arr.length;i++)
     {
         System.out.print("Entrez un entier : ");
+        Scanner lire;
+        final int[] arr;
         arr[i] = lire.nextInt();
     }
+}
 
-    }
-
+    // Méthode pour calculer la moyenne
     public static void main(String[] args) {
         Scanner lire = new Scanner(System.in);
         System.out.println("- - TABLEAU OPE. DE BASE - -");
+        int[] tableau = new int[5];
+        for (int i = 0; i < tableau.length; i++) {
+            System.out.print("Entrez un entier : ");
+            tableau[i] = lire.nextInt();
+        }
         
     }
-}

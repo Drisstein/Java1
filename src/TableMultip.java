@@ -19,17 +19,15 @@
 
 import java.util.Scanner;
 
-public class TableMultip {
-    public static void table(String[] args) {
-        try (Scanner lire = new Scanner(System.in)) {
-            System.out.println("- - - TABLE DE MULTIPLICATION - - -");
-            int x;
-            while (true) {
-                System.out.print("Entrer le numéro de table :");
-                x = lire.nextInt();
-                for (int i = 1; i <= 10; i++) {
-                    System.out.println(x + " * " + i + " = " + (x * i));
-                }
+public static void main(String[] args) {
+    System.out.println("- - - TABLE DE MULTIPLICATION - - -");
+    int x;
+    try (Scanner lire = new Scanner(System.in)) {
+        while (true) {
+            System.out.print("Entrer le numéro de table :");
+            x = lire.nextInt();
+            for (int i = 1; i <= 10; i++) {
+                System.out.println(x + " * " + i + " = " + (x * i));
             }
         }
     }
