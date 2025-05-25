@@ -15,7 +15,7 @@
  * classe Test ();
  */
 
-import java.util.Scanner;
+
 
 public class Point {
 

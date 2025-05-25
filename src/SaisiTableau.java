@@ -7,7 +7,7 @@ le tableau (les valeurs fournies au clavier), de calculer et d’afficher la moy
 */
 import java.util.Scanner;
 
-public int TabMinmax(int[]args){
+public int TabMinmax(int[]args){};
 
 public class SaisiTableau {
     for(

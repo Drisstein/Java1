@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SaisiTableau {
+public class SaisiTableauCorrection {
 
     // Méthode pour saisir un tableau
     public static int[] saisirTableau(int taille) {
@@ -21,6 +21,7 @@ public class SaisiTableau {
         }
         return (double) somme / arr.length;
     }
+
 
     // Méthode pour trouver la valeur maximale
     public static int trouverMax(int[] arr) {
